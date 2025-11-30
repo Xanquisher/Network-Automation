@@ -47,7 +47,7 @@ Example setup on the control host(for someone cloning this repo):
 ``` sudo apt install -y sshpass```
 
 Bring up the VyOS lab:
-``` cd ~/vyos-project/ansible # or cd vyos-static-route-lab/ansible if you cloned it```
+``` cd vyos-static-route-lab/ansible```
 ``` docker compose up -d```
 ``` docker compose ps```
 
